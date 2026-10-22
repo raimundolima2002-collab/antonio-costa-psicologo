@@ -13,7 +13,6 @@ import {
   MessageCircle,
   Quote,
   ShieldCheck,
-  Sparkles,
   UsersRound,
 } from "lucide-react";
 import { FAQ } from "../App";
@@ -45,13 +44,14 @@ export default function Home() {
               <span><LaptopMinimal size={16} /> 100% online</span>
             </div>
           </div>
-          <div className="hero-visual" aria-label="Ilustração abstrata em tons de azul">
+          <div className="hero-visual" aria-label="Retrato de Antonio Costa em uma moldura azul em arco">
             <div className="visual-card main-visual-card">
-              <div className="visual-topline"><span>um espaço de cuidado</span><span className="visual-dot" /></div>
-              <div className="visual-sun"><Sparkles size={28} /></div>
-              <div className="visual-wave wave-back" />
-              <div className="visual-wave wave-front" />
-              <div className="visual-caption"><span>respirar</span><span>recomeçar</span><span>florescer</span></div>
+              <img
+                className="hero-portrait"
+                src="/images/antonio-costa.jpg"
+                alt="Retrato de Antonio Costa, psicólogo"
+                fetchPriority="high"
+              />
             </div>
             <div className="floating-chip chip-top"><Heart size={15} fill="currentColor" /> cuidado possível</div>
             <div className="floating-chip chip-bottom"><LockKeyhole size={14} /> espaço seguro</div>

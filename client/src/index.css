@@ -77,14 +77,8 @@ h1 em, h2 em { color: var(--blue); font-style: normal; }
 .hero-signals { display: flex; gap: 20px; margin-top: 50px; color: #56758c; font-size: 11px; }
 .hero-signals span, .contact-meta span { display: inline-flex; align-items: center; gap: 7px; }
 .hero-visual { position: relative; min-height: 450px; display: grid; place-items: center; }
-.main-visual-card { width: min(100%, 390px); height: 420px; position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,.72); border-radius: 190px 190px 25px 25px; background: linear-gradient(145deg, #75b8db, #145686 75%); box-shadow: 24px 35px 60px rgba(15,72,111,.2); }
-.visual-topline { display: flex; justify-content: space-between; padding: 25px 27px; color: rgba(255,255,255,.82); font-size: 9px; letter-spacing: .16em; text-transform: uppercase; }
-.visual-dot { width: 7px; height: 7px; background: var(--teal); border-radius: 50%; box-shadow: 0 0 0 6px rgba(255,255,255,.12); }
-.visual-sun { position: absolute; top: 83px; left: 80px; display: grid; place-items: center; width: 94px; height: 94px; border-radius: 50%; color: #effbff; background: rgba(198,235,244,.35); box-shadow: 0 0 0 24px rgba(181,229,239,.1), 0 0 0 52px rgba(181,229,239,.06); }
-.visual-wave { position: absolute; left: -12%; width: 124%; border-radius: 50% 50% 0 0; transform: rotate(-9deg); }
-.wave-back { height: 250px; bottom: -95px; background: #a8d5e2; }
-.wave-front { height: 210px; bottom: -117px; background: #e6f3f6; transform: rotate(8deg); }
-.visual-caption { position: absolute; display: flex; gap: 11px; bottom: 30px; left: 27px; right: 27px; color: var(--blue-deep); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; }
+.main-visual-card { width: min(100%, 390px); height: 420px; position: relative; overflow: hidden; padding: 8px; border: 1px solid rgba(255,255,255,.72); border-radius: 190px 190px 25px 25px; background: linear-gradient(145deg, #75b8db, #145686 75%); box-shadow: 24px 35px 60px rgba(15,72,111,.2); }
+.hero-portrait { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 35%; border-radius: 178px 178px 17px 17px; }
 .floating-chip { position: absolute; z-index: 2; display: inline-flex; align-items: center; gap: 8px; color: var(--blue-deep); background: rgba(255,255,255,.82); border: 1px solid rgba(255,255,255,.85); border-radius: 999px; padding: 10px 14px; font-size: 11px; box-shadow: 0 10px 30px rgba(19,74,108,.12); backdrop-filter: blur(12px); }
 .chip-top { top: 83px; right: -5px; color: #2a776f; }.chip-bottom { bottom: 38px; left: -18px; }
 .hero-bottom-line { position: relative; z-index: 1; display: flex; align-items: center; gap: 14px; color: #7391a2; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }.hero-bottom-line .line { height: 1px; flex: 1; background: #bfd8e4; }
